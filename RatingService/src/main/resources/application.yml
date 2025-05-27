@@ -1,0 +1,17 @@
+server:
+  port: 8083
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://root:Sakshi90@mircroservice.moq0rce.mongodb.net/?retryWrites=true&w=majority&appName=mircroservice
+      database: mircroservice
+  application:
+    name: RATING-SERVICE
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
