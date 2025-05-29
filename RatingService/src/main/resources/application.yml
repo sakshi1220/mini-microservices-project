@@ -8,6 +8,8 @@ spring:
       database: mircroservice
   application:
     name: RATING-SERVICE
+  config:
+    import: configserver:http://localhost:8085
 
 eureka:
   instance:

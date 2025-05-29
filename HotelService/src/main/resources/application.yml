@@ -14,6 +14,8 @@ spring:
     show-sql: true
   application:
     name: HOTEL-SERVICE 
+  config:
+    import: configserver:http://localhost:8085
 
 eureka:
   instance:
